@@ -7,6 +7,14 @@ class Header extends React.Component {
     render() {
         return (
             <div>
+                <div class="navbar">
+                <ul>
+                    <li><a class="active" href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+                </div>
                 <div className="background"></div>
                 <div className="background2x">
                 <div className="col justify-content-left topHeader"></div>
@@ -15,13 +23,14 @@ class Header extends React.Component {
                 <h1>CRISTINA LARYEA</h1>
                 <h3>FULL STACK DEVELOPER</h3>
                 </Link>
-                <div>
-                    <Link to='/'>ABOUT</Link>
-                    <Link to='/'>PROJECTS</Link>
-                    <Link to='/'>BLOG</Link>
-                    <Link to='/'>LIFE</Link>
-                    <Link to='/'>CONTACT</Link>
-                </div>
+                
+                {/* <div className="Links justiy-content">
+                    <Link to='/About'>ABOUT</Link>
+                    <Link to='/Projects'>PROJECTS</Link>
+                    <Link to='/Blog'>BLOG</Link>
+                    <Link to='/Life'>LIFE</Link>
+                    <Link to='/Contact'>CONTACT</Link>
+                </div> */}
                 <div className="Header-text px-5"></div>
                 <h1 className="mb-5 Intro">Hello Everyone!</h1>
                     <p className="summary">
