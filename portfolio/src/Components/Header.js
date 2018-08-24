@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
 import '../Css/Header.css';
 
 
@@ -9,10 +9,9 @@ class Header extends React.Component {
         return (
             <div>
                 
+
+                <div className="background">
                 <div className="halfBackground">
-                <img src={require('../Assets/flowers.jpg')} alt='flowers' />
-               
-                
                 
                 <h1>CRISTINA LARYEA</h1>
                 <h3>FULL STACK DEVELOPER</h3>
@@ -32,6 +31,7 @@ class Header extends React.Component {
                     </p>
                     </div>
              </div>
+           </div>
            </div>
         );
     }
