@@ -15,7 +15,7 @@ class Header extends React.Component {
                 
                 <h1>CRISTINA LARYEA</h1>
                 <h3>FULL STACK DEVELOPER</h3>
-                
+                <img src={require('../Assets/IMG_0014.jpg')} alt= 'Cristina' />
                 
                 <div className="Header-text px-5">
                 <h1 className="mb-5 Intro">Hello Everyone!</h1>
