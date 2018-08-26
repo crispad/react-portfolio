@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import { Link } from 'react-router-dom';
+import { NavLink} from 'react-router-dom';
 
 class SimpleMenu extends React.Component {
   state = {
@@ -29,7 +29,6 @@ class SimpleMenu extends React.Component {
         >
           Explore
         </Button>
-        <Link to='/'>
         <Menu
           id="simple-menu"
           anchorEl={anchorEl}
@@ -41,7 +40,6 @@ class SimpleMenu extends React.Component {
           <MenuItem onClick={this.handleClose}>Projects</MenuItem>
           <MenuItem onClick={this.handleClose}>Blogs</MenuItem>
         </Menu>
-        </Link>
       </div>
     );
   }
