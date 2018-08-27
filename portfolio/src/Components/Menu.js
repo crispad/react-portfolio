@@ -3,6 +3,7 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { NavLink} from 'react-router-dom';
+import '../Css/Menu.css'
 
 class SimpleMenu extends React.Component {
   state = {
@@ -21,7 +22,7 @@ class SimpleMenu extends React.Component {
     const { anchorEl } = this.state;
 
     return (
-      <div>
+      <div> 
         <Button
           aria-owns={anchorEl ? 'simple-menu' : null}
           aria-haspopup="true"
@@ -29,6 +30,7 @@ class SimpleMenu extends React.Component {
         >
           Explore
         </Button>
+        <div className="menu">
         <Menu
           id="simple-menu"
           anchorEl={anchorEl}
@@ -40,6 +42,7 @@ class SimpleMenu extends React.Component {
           <MenuItem onClick={this.handleClose}>Projects</MenuItem>
           <MenuItem onClick={this.handleClose}>Blogs</MenuItem>
         </Menu>
+        </div>
       </div>
     );
   }
