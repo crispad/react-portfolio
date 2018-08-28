@@ -41,6 +41,7 @@ class SimpleMenu extends React.Component {
           <MenuItem onClick={this.handleClose}>About Me</MenuItem>
           <MenuItem onClick={this.handleClose}>Projects</MenuItem>
           <MenuItem onClick={this.handleClose}>Blogs</MenuItem>
+          <MenuItem onClick={this.handleClose}>Contact</MenuItem>
         </Menu>
         </div>
       </div>
