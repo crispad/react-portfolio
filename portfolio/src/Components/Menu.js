@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
+
 
 // import Button from '@material-ui/core/Button';
 // import Menu from '@material-ui/core/Menu';
@@ -54,16 +55,41 @@ import { Link } from 'react-router-dom';
 class SimpleMenu extends Component {
   render() {
     return (
-      <div className="Menu">
-        <ul>
-          <Link to = '/about me'><span className='text-dark'>About Me</span></Link>
-          <Link to = '/projects'><span className='text-dark'>Projects</span></Link>
-          <Link to = '/blogs'><span className='text-dark'>Blogs</span></Link>
-          <Link to = '/contact'><span className='text-dark'>Contact</span></Link>
+      // <div className="Menu">
+      //   <ul>
+      //     <Link to = '/about me'><span className='text-dark'>About Me</span></Link>
+      //     <Link to = '/projects'><span className='text-dark'>Projects</span></Link>
+      //     <Link to = '/blogs'><span className='text-dark'>Blogs</span></Link>
+      //     <Link to = '/contact'><span className='text-dark'>Contact</span></Link>
           
 
-        </ul>
-      </div>
+      //   </ul>
+      // </div>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  {/* <a class="navbar-brand" href="#">Cristina Laryea</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button> */}
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
     )
   }
 }
