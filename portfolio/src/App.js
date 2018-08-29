@@ -6,6 +6,7 @@ import Menu from '../src/Components/Menu';
 import Footer from '../src/Components/Footer';
 import AboutMe from './Components/aboutMe';
 import Contact from './Components/Contact';
+import Projects from './Components/Projects';
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
          <Menu />
       <Home />
       <AboutMe />
+      <Projects />
       <Contact/>
       <Footer />
       
