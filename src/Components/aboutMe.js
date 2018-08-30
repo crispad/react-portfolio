@@ -6,8 +6,6 @@ class AboutMe extends Component {
        return(
            <div className="About Me">
             <h1>About Me</h1>
-            <h2>CRISTINA LARYEA</h2>
-                <h3>FULL STACK DEVELOPER</h3>
                 <img src={require('../Assets/IMG_0014.jpg')} alt= 'Cristina' />
                 <div>
                 <p className="summary">
