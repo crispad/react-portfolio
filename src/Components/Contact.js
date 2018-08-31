@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+const CenteredHeader = styled.h4`
+  text-align: center;
+  margin-bottom: 1.25em;
+`
 const FormDiv = styled.div`
   margin: 0 auto;
   width: 50%;
@@ -29,28 +33,8 @@ const EmailMe = styled.p`
 class Contact extends Component {
     render() {
         return (
-            // <div>
-            //     <h1>Get In Touch With Me!</h1>
-            // <Form>
-            //     <FormGroup>
-            //         <Label for="Name">Name</Label>
-            //         <Input type="name" name="name" id="name" placeholder="Enter name here" />
-            //     </FormGroup>
-            //     <FormGroup>
-            //         <Label for="Email">Email</Label>
-            //         <Input type="email" name="email" id="email" placeholder="Enter email here" />
-            //     </FormGroup>
-            //     <FormGroup>
-            //         <Label for="Comment">Comment</Label>
-            //         <Input type="comment" name="comment" id="comment" />
-            //     </FormGroup>
-            //    <Button>Submit</Button> 
-            // </Form>
-
-            // Or, just email me directly at <a href="mailto:claryea01@gmail.com"><strong>claryea01@gmail.com</strong></a>.
-            // </div>
             <div>
-        {/* <CenteredHeader>Get in touch with me!</CenteredHeader> */}
+        <CenteredHeader>Get in touch with me!</CenteredHeader>
 
         <FormDiv>
           <form action="https://formspree.io/claryea01@gmail.com" method="POST" id="contactform">
