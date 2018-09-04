@@ -17,7 +17,7 @@ class Home extends React.Component {
             <div style={{width: 'auto'}}>
                 <Image  
                     style={background} responsive
-                    src='../Assets/IMG_0014.jpg'>
+                    src={require('../Assets/flowers.jpg')}>
                 </Image>
                 <h1 style={textStyle}>Cristina Laryea</h1>
                 
