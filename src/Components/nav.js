@@ -2,7 +2,7 @@ import React from 'react';
 //import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
 import '../Css/nav.css';
 
-import { toElement as scrollToElement } from './scroll.js';
+//import { toElement as scrollToElement } from './scroll.js';
 
 
 
@@ -36,10 +36,10 @@ class Nav extends React.Component {
     }
   }
 
-  scrollToPage(pageSelector) {
-    const nextPage = document.querySelector(pageSelector);
-    scrollToElement(nextPage);
-  }
+  // scrollToPage(pageSelector) {
+  //   const nextPage = document.querySelector(pageSelector);
+  //   scrollToElement(nextPage);
+  // }
 
   render() {
 
@@ -74,7 +74,13 @@ class Nav extends React.Component {
             className="nav-item hvr-grow"
             onClick={(e) => this.scrollToPage('blogs.-page')}
           >
-            Blogs
+            Skills
+          </div>
+          <div
+            className="nav-item hvr-grow"
+            onClick={(e) => this.scrollToPage('.contact-page')}
+          >
+            Blog
           </div>
           <div
             className="nav-item hvr-grow"
