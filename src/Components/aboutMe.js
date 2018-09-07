@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class AboutMe extends Component {
    render() {
        return(
-           <div className="About Me">
+           <div className="row justify-content-center">
             <h1>About Me</h1>
                 <img src={require('../Assets/IMG_0014.jpg')} alt= 'Cristina' />
                 <div>

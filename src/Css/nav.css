@@ -1,12 +1,48 @@
+.navbar.scrolling-navbar {
+    padding-top: 12 px;
+    padding-bottom: 12px;
+}
+
+.navbar {
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    font-weight: 300;
+}
+
+.fixed-top{
+    top: 0;
+}
+
+.fixed-botton, .fixed-top{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.navbar-expand-lg {
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+}
+
 .navbar {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
 }
 
-.nav {
+.nav-link, .navbar{
+    padding: .5rem 1rem;
+}
+
+.nav .navbar{
+    /* display: -ms-flexbox; */
+    -ms-flex-wrap: wrap; 
+}
+
+/* .nav {
     margin-right: 1rem;
     display: flex;
     flex: 1;
@@ -33,4 +69,4 @@
 .nav-item:hover {
       cursor: pointer;
       color: black;
-      }
+      } */

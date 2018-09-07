@@ -1,6 +1,6 @@
 import React from 'react';
 //import { Collapse, Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink } from 'reactstrap';
-import '../Css/nav.css';
+//import '../Css/nav.css';
 
 //import { toElement as scrollToElement } from './scroll.js';
 
@@ -100,30 +100,50 @@ import '../Css/nav.css';
 class Nav extends React.Component {
   render() {
     return (
-      <div>
-        <nav class="navbar">
+//       <div class="row col-sm-12">
+//         <nav class="navbar nav-bar-expand-lg navbar-dark fixed-top scrolling-navbar">
+//   {/* <a class="navbar-brand" href="#">Cristina Laryea</a> */}
+//   <div class="collapse navbar-collapse" id="navbarNav">
+//     <ul class="navbar-nav">
+//       <li class="nav-item active">
+//         <a class="nav-link" href="#/AboutMe">About Me <span class="sr-only"></span></a>
+//       </li>
+//       <li class="nav-item">
+//         <a class="nav-link" href="#/Projects">Projects</a>
+//       </li>
+//       <li class="nav-item">
+//         <a class="nav-link" href="#/Skills">Skills</a>
+//       </li>
+//       <li class="nav-item">
+//         <a class="nav-link" href="#/Blogs">Blogs</a>
+//       </li>
+//       <li class="nav-item">
+//         <a class="nav-link" href="#/Contacts">Contacts</a>
+//       </li>
+//     </ul>
+//   </div>
+// </nav>
+//       </div>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light rounded mb-4">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"></link>
+  
   {/* <a class="navbar-brand" href="#">Cristina Laryea</a> */}
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#/AboutMe">About Me <span class="sr-only"></span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/Projects">Projects</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/Skills">Skills</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/Blogs">Blogs</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#/Contacts">Contacts</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> */}
+    {/* <span class="navbar-toggler-icon"></span> */}
+  {/* </button> */}
+
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+  <ul class="nav navbar-nav mr-auto">
+      <li class="nav-item"><a class="nav-link" href="#/About Me">About Me</a></li>
+      <li class="nav-item"><a class="nav-link" href="#/Projects">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="#/Skills">Skills</a></li>
+      <li class="nav-item"><a class="nav-link" href="#/Blogs">Blogs</a></li>
+      <li class="nav-item"><a class="nav-link" href="#/Contact">Contact</a></li>
+      </ul>
       </div>
+      </nav>
     )
   }
     
