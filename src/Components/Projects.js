@@ -14,7 +14,7 @@ class Projects extends Component {
         <img width="20%" src={require('../Assets/ishiftr.jpg')} alt="Card" />
         <CardBody>
           <CardText>A new and improved way to schedule and manage your employee's shifts!</CardText>
-          <CardLink href="#">www.ishiftr.com</CardLink>
+          <CardLink href="http://www.ishiftr.com">www.ishiftr.com</CardLink>
         </CardBody>
       </Card>
             </div>

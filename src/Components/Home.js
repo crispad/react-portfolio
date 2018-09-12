@@ -19,14 +19,31 @@ class Home extends React.Component {
         //     left: '70%'
         // };
         let traspBackground = {
-            color: '#658327',
-            opacity: '0.8',
-            color: 'white',
-            padding: '40px',
-            weight: '700',
-            align: 'center',
-            top: '100px',
-            size: '18px',
+            // color: '#658327',
+            // opacity: '0.8',
+            // color: 'white',
+            // padding: '40px',
+            // weight: '700',
+            // align: 'center',
+            // top: '100px',
+            // size: '18px',
+            position: 'absolute',
+            top: '70%',
+            left: '70%',
+        }
+
+        let traspBackground2 = {
+            // color: '#658327',
+            // opacity: '0.8',
+            // color: 'white',
+            // padding: '40px',
+            // weight: '700',
+            // align: 'center',
+            // top: '100px',
+            // size: '18px',
+            position: 'absolute',
+            bottom: '70%',
+            center: '70%',
         }
 
         return (
@@ -38,7 +55,8 @@ class Home extends React.Component {
                 </Image>
                 <div className = 'traspBackground'>
                                 <h1 style={traspBackground}>Cristina Laryea</h1>
-                                <h2>Full Stack Developer</h2>
+
+                                <h2 style={traspBackground2}>Full Stack Developer</h2>
                             </div>
                         </div>
                 
