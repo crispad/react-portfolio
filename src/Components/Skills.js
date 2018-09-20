@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
+//import { Card, CardTitle, CardText, CardGroup, CardBody } from 'reactstrap';
  
 import '../Css/skills.css';
 
