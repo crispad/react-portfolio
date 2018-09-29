@@ -4,7 +4,7 @@
     border-radius: 5px;
 }
 
-/* .card:hover {
+ .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -19,11 +19,11 @@
 }
 
 /* Clear floats after the columns */
-/* .row:after {
+ .row:after {
     content: "";
     display: table;
     clear: both;
-} */ 
+} 
 
 
 .text-center {
@@ -36,4 +36,4 @@
 
 .card-deck{
     display: flex;
-}
+} 
